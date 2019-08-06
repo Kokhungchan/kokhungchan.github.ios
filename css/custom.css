@@ -168,11 +168,6 @@ ul,li {
   display:inline;
 }
 
-ul > li > h1:before {
-  content: '-' !important; /* en dash */
-  position: absolute !important;
-  margin-left: -1.1em !important;
-}
 
 body {
     display: none;
