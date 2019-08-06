@@ -163,14 +163,14 @@ footer {
     color: #4A8CFF; 
 }
 
-ul {
+ul, li {
   list-style-type: none !important;
+  display:inline;
 }
 
 ul > li > h1:before {
   content: '-' !important; /* en dash */
   position: absolute !important;
-  display: inline-block !important;
   margin-left: -1.1em !important;
 }
 
