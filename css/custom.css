@@ -172,3 +172,8 @@ ul > li > h1:before {
   position: absolute !important;
   margin-left: -1.1em !important;
 }
+
+body {
+    display: none;
+}
+
