@@ -165,9 +165,7 @@ footer {
 
 ul,li {
   list-style-type: none !important;
-  display:inline;
 }
-
 
 body {
     display: none;
