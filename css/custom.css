@@ -134,6 +134,14 @@ a:hover {
   .education .education-list:first-child {
     font-size: 0.9375em;
     color: #8c8c8c; }
+.education .education-list li a {
+      padding-bottom: 5px;
+      font-size: 1.1875em;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1px solid #b3b3b3; }
+      .education .education-list li a:hover {
+        border-bottom: 1px solid #333333; }
 
 .skills .skill-list {
   margin-left: 0px; }
