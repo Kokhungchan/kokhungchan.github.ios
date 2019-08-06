@@ -131,10 +131,10 @@ a:hover {
 
 .education .education-list{
   margin-left: 0px; }
-  .education .education-list:first-child {
+  .education .education-list li:first-child {
     font-size: 0.9375em;
     color: #8c8c8c; }
-.education .education-list li a {
+    .education .education-list li a {
       padding-bottom: 5px;
       font-size: 1.1875em;
       font-weight: 700;
