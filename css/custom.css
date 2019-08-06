@@ -153,3 +153,12 @@ footer {
     footer .social li a {
       font-size: 1.25em;
       color: #999999; }
+
+.list-icons {
+    font-size: 3rem; 
+}
+
+.list-icons .list-inline-item i:hover {
+    cursor: default;
+    color: #4A8CFF; 
+}
