@@ -163,8 +163,9 @@ footer {
     color: #4A8CFF; 
 }
 
-ul {
+ul,li {
   list-style-type: none !important;
+  display:inline;
 }
 
 ul > li > h1:before {
