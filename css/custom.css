@@ -129,6 +129,12 @@ a:hover {
     font-size: 0.9375em;
     color: #8c8c8c; }
 
+.education .education-list{
+  margin-left: 0px; }
+  .education .education-list:first-child {
+    font-size: 0.9375em;
+    color: #8c8c8c; }
+
 .skills .skill-list {
   margin-left: 0px; }
   .skills .skill-list li:first-child {
