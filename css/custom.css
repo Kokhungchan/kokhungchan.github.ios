@@ -179,4 +179,7 @@ ul > li > h1:before {
   margin-left: -1.1em !important;
 }
 
+span{
+    display:none;
+}
 
