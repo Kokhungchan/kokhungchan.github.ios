@@ -100,8 +100,8 @@ a:hover {
     width: 81px;
     height: 81px;
     border-radius: 99px; }
-/*  .intro .wrap {
-    margin: 0px 0px; } */
+  .intro .wrap {
+    margin: 0px 0px; }
   .intro h1:before {
     position: absolute;
     left: -220px;
