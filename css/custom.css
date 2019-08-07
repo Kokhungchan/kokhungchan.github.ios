@@ -1,13 +1,24 @@
 
-h1, h2, h3, h4, h5, h6 {
+h2, h4, h5, h6 {
   font-family: "Playfair Display SC", serif;
   color: #333333; }
 
-a, p, li {
+
+h1, h3 {
+  font-family: "Playfair Display SC", serif;
+  color: #f7f9fb;
+}
+
+a, li {
   font-family: "Lato", Arial, sans-serif;
   color: #4e4e4e;
   font-size: 1em;
   line-height: 1.75em; }
+
+  p {
+    font-family: "Lato", Arial, sans-serif;
+    color: #f7f9fb;
+  }
 
 a:hover {
   text-decoration: none !important;
@@ -17,6 +28,12 @@ a:hover {
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
 .container {
   margin: auto;
@@ -69,10 +86,10 @@ a:hover {
   100% {
     opacity: 1; } }
 .main-nav {
-  background: #f4f4f4;
+  background: #8fc1e3;
   padding-top: 23px; }
   .main-nav nav ul li a {
-    color: #a7a7a7; }
+    color: #f7f9fb; }
   .main-nav nav ul li.active a {
     color: #4d4d4d; }
 
@@ -92,9 +109,10 @@ a:hover {
 
 .intro {
   /*padding: 95px 0px 70px 0px;*/
-  background: #9099A2;
+  background: #5085a5;
   padding: 30px 0px;
   margin-bottom: 30px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   overflow-x: hidden; }
   .intro img {
     width: 81px;
@@ -108,16 +126,13 @@ a:hover {
     top: -150px;
     font-size: 270px;
     z-index: -1;
-    color: #f4f4f4; }
+    color: #f7f9fb; }
   .intro h1 span {
     font-size: 47px; }
-  .intro h3::before {
+  .intro h3:before {
     position: absolute;
-    left: -220px;
-    top: -150px;
     font-size: 140px;
-    z-index: -1;
-    color: #f4f4f4;}
+    color: #f7f9fb;}
   .intro h3 span {
     font-size: 25px;}
 
@@ -166,8 +181,8 @@ a:hover {
     font-size: 0.9375em;
     color: #8c8c8c; }
 
-.quote {
-  background: url(../img/bg.jpg);
+.quote {s
+  background: url(../img/bg.png);
   padding: 20px 0px;
   margin-top: 120px; }
   .quote h1 {

@@ -3106,6 +3106,15 @@ ul.dropdown li.divider {
   overflow-y: auto;
   z-index: 101;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.img-circle {
+    border: 2px solid white;
+    border-radius: 50%;
+}
 .modal {
   position: relative;
   margin: auto;
