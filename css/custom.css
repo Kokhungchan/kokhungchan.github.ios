@@ -119,6 +119,10 @@ a:hover {
   .intro h3 span {
     font-size: 25px;}
 
+    .about {
+      margin-left: 0px;
+    }
+
 .work .work-list {
   margin-left: 0px; }
   .work .work-list li {
