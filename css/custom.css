@@ -92,7 +92,7 @@ a:hover {
 
 .intro {
   background: url(../img/bg.jpg);
-  padding: 20px 0px;
+  padding: 0px 0px;
   overflow-x: hidden; }
   .intro img {
     width: 81px;
