@@ -93,7 +93,8 @@ a:hover {
 .intro {
   /*padding: 95px 0px 70px 0px;*/
   background: url(../img/bg.jpg);
-  padding: 20px 0px;
+  padding: 30px 0px;
+  margin-bottom: 30px;
   overflow-x: hidden; }
   .intro img {
     width: 81px;
