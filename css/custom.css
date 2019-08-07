@@ -91,7 +91,8 @@ a:hover {
     position: relative; }
 
 .intro {
-  padding: 95px 0px 70px 0px;
+  background: url(../img/bg.jpg);
+  padding: 20px 0px;
   overflow-x: hidden; }
   .intro img {
     width: 81px;
@@ -177,6 +178,10 @@ footer {
     footer .social li a {
       font-size: 1.25em;
       color: #999999; }
+
+header {
+  padding: 50px 0px 0px 0px;
+}
 
 .list-icons {
     font-size: 3rem;
