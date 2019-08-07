@@ -83,6 +83,7 @@ a:hover {
   .section .container:after {
     position: absolute;
     content: url(../img/divider.png);
+    left: 20px
    }
   .section .container h1 {
     text-transform: uppercase;
