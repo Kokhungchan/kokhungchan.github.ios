@@ -209,3 +209,8 @@ section:first-child {
 section:last-child {
 	padding: 20px 0 10px;
 }
+
+.sectionContent {
+	float: right;
+	width: 72.5%;
+}
