@@ -91,17 +91,17 @@ a:hover {
     position: relative; }
 
 .intro {
-  padding: 95px 0px 70px 0px;
+  /*padding: 95px 0px 70px 0px;*/
   background: url(../img/bg.jpg);
   padding: 20px 0px;
-  margin-top: 120px;
+  margin-bottom: 120px;
   overflow-x: hidden; }
   .intro img {
     width: 81px;
     height: 81px;
     border-radius: 99px; }
-  .intro .wrap {
-    margin: 0px 0px; }
+/*  .intro .wrap {
+    margin: 0px 0px; } */
   .intro h1:before {
     position: absolute;
     left: -220px;
