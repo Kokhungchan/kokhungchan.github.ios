@@ -107,6 +107,15 @@ a:hover {
     color: #f4f4f4; }
   .intro h1 span {
     font-size: 47px; }
+  .intro h3::before {
+    position: absolute;
+    left: -220px;
+    top: -150px;
+    font-size: 180px;
+    z-index: -1;
+    color: #f4f4f4;}
+  .intro h3 span {
+    font-size: 30px;}
 
 .work .work-list {
   margin-left: 0px; }
@@ -169,12 +178,12 @@ footer {
       color: #999999; }
 
 .list-icons {
-    font-size: 3rem; 
+    font-size: 3rem;
 }
 
 .list-icons .list-inline-item i:hover {
     cursor: default;
-    color: #4A8CFF; 
+    color: #4A8CFF;
 }
 
 ul {
@@ -186,4 +195,3 @@ ul > li > h1:before {
   position: absolute !important;
   margin-left: -1.1em !important;
 }
-
