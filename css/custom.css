@@ -83,7 +83,7 @@ a:hover {
   .section .container:after {
     position: absolute;
     content: url(../img/separator.png);
-    left: 20px; }
+   }
   .section .container h1 {
     text-transform: uppercase;
     margin-bottom: 30px;
