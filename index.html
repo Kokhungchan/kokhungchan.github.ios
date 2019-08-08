@@ -185,7 +185,7 @@
 		<div class="container">
 			<div class="units-row">
 			    <div class="unit-50">
-			    	<p class="footer-text">Chan Kok Hung <span id="year"></span></p>
+			    	<p class="footer-text">Chan Kok Hung © <span id="year"></span></p>
 			    </div>
 			    <div class="unit-50">
 					<ul class="social list-flat right">
@@ -202,7 +202,15 @@
 
 <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="js/ga.js"></script>
-<script type="text/javascript" src="js/date.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script>
+(function () {
+    'use strict';
+    $(document).ready(function () {
+        $('body').fadeIn(950);
+        $('#year').text(new Date().getFullYear());
+    });
+})();</script>
 
 </body>
 </html>
