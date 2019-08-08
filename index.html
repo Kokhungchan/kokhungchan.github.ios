@@ -17,7 +17,7 @@
   <link href="css/simple-line-icons.css" rel="stylesheet">
   </head>
 
-<body>
+  <body>
   <!-- Navigation -->
 <div class="main-nav">
   <div class="container">
@@ -49,7 +49,7 @@
         <h3><center><span class="u-shadow">Software Engineer</span>
         </center></h3><br><br>
         <div class="text-center">
-					<img class="img-circle profile-pic" alt="Profile picture" src="img/ava.jpg">
+					<img class="img-circle profile-pic" alt="Profile picture" src="img/profile.jpg">
 				</div><br><br>
         <div class="about" id="about">
           <div class="container"><center>
@@ -63,6 +63,7 @@
 
     <div class="skills second section" id="skills">
       <div class="container">
+        <div class="text-center">
 	      <h2>Skills</h2>
 	      <h4>Programming Languages &amp; Tools</h4>
         <ul class="list-inline list-icons">
@@ -91,9 +92,13 @@
             <i class="devicon-react-original"></i>
           </li>
           <li class="list-inline-item">
+            <i class="devicon-angularjs-plain"></i>
+          </li>
+          <li class="list-inline-item">
             <i class="devicon-php-plain"></i>
           </li>
         </ul>
+      </div>
     </div>
    </div>
 
@@ -185,22 +190,33 @@
 		<div class="container">
 			<div class="units-row">
 			    <div class="unit-50">
-			    	<p>Chan Kok Hung</p>
+			    	<p class="footer-text">Chan Kok Hung © <span id="year"></span></p>
 			    </div>
 			    <div class="unit-50">
 					<ul class="social list-flat right">
-						<li><a href="#"><i class="fa fa-send"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-						<li><a href="#"><i class="fa fa-behance"></i></a></li>
+						<li><a href="https://www.facebook.com/chan.kokhung"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://github.com/Kokhungchan"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/kokhungchan/"><i class="fa fa-linkedin"></i></a></li>
 					</ul>
 			    </div>
 			</div>
 		</div>
 	</footer>
-
-
-	</body>
 </section>
 
+<!-- scripts -->
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/ga.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script>
+(function () {
+    'use strict';
+    $(document).ready(function () {
+        $('body').fadeIn(950);
+        $('#year').text(new Date().getFullYear());
+    });
+})();</script>
+
+</body>
 </html>

@@ -118,10 +118,6 @@ a:hover {
   margin-bottom: 30px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   overflow-x: hidden; }
-  .intro img {
-    width: 81px;
-    height: 81px;
-    border-radius: 99px; }
   .intro .wrap {
     margin: 0px 0px; }
   .intro h1:before {
@@ -186,7 +182,7 @@ a:hover {
     color: #8c8c8c; }
 
 .quote {
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  background: url(../img/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -248,4 +244,8 @@ section:last-child {
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+.footer-text {
+ color: #4d4d4d;
 }
