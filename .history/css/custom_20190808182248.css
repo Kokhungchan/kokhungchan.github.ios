@@ -37,7 +37,6 @@ a:hover {
 
 .container {
   margin: auto;
-  position: relative;
   max-width: 662px;
   padding: 0px 20px; }
 
@@ -69,9 +68,12 @@ a:hover {
 .section.second {
   margin-bottom: 90px; }
 .section .container {
-  position: relative;
-}
-
+  position: relative; }
+/*  .section .container:after {
+    position: absolute;
+    content: url(../img/divider.png);
+    left: 20px
+   } */
   .section .container h1 {
     text-transform: uppercase;
     margin-bottom: 0px;
@@ -84,7 +86,6 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
   padding: 30px 0px;
   margin-bottom: 30px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -92,7 +93,22 @@ a:hover {
   .intro .wrap {
     margin: 0px 0px;
   }
-  
+  .intro h1:before {
+    position: absolute;
+    left: -220px;
+    top: -150px;
+    font-size: 270px;
+    z-index: -1;
+    color: #f7f9fb; }
+  .intro h1 span {
+    font-size: 47px; }
+  .intro h3:before {
+    position: absolute;
+    font-size: 140px;
+    color: #f7f9fb;}
+  .intro h3 span {
+    font-size: 25px;}
+
     .about {
       margin-left: 0px;
     }
@@ -166,13 +182,6 @@ header {
   padding: 0px 0px 0px 0px;
 }
 
-.wrapper {
-  width:500px;
-  margin:0 auto;
-  position: relative;
-  text-align:center;
-}
-
 .list-icons {
     font-size: 3rem;
 }
@@ -214,45 +223,90 @@ section:last-child {
  color: #4d4d4d;
 }
 
-.introtext {
-  text-transform: uppercase;
-  text-align:center;
-  letter-spacing: 0.5em;
-  display: inline-block;
-  border: 4px double rgba(0, 0, 0, 0.25);
-  border-width: 4px 0;
-  padding: 1.5em 0em;
+
+.wrapper {
+  width:500px;
+  margin:0 auto;
   position: relative;
-  top: 18%;
-  left: 50%;
-  width: 40em;
-  margin: 0 0 0 -20em;
-}
-.introtext span {
-  font: 700 4em "Oswald", sans-serif;
   text-align:center;
-  letter-spacing: 0;
-  padding: 0.25em 0 0.325em;
-  display: block;
-  margin: 0 auto;
-  text-shadow: 0 0 80px rgba(255, 255, 255, .5);
-  /* Clip Background Image */
-  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
-  -webkit-background-clip: text;
-  background-clip: text;
-  /* Animate Background Image */
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: aitf 80s linear infinite;
-  /* Activate hardware acceleration for smoother animations */
-  -webkit-transform: translate3d(0, 0, 0);
-  -webkit-backface-visibility: hidden;
 }
-/* Animate Background Image */
-@-webkit-keyframes aitf {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
+
+.textintro {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 6rem;
+  position: relative;
+  /* display:inline-block; */
+  color: transparent;
+  margin-bottom: 0;
+  /*span {
+   display:block;
+   transition:all 0.3s;
+   &:hover:before {
+   }
+   &:hover:after {
+   top:14px;
+   cursor:pointer;
+   }
+   }*/
 }
+.textintro:before {
+  content: "Shatter";
+  position: absolute;
+  top: 0px;
+  left: 22px;
+  color: white;
+  clip-path: inset(0px 298px 0px 0px);
+  transition: all 0.3s;
+}
+.textintro span:before {
+  content: "Shatter";
+  position: absolute;
+  top: 0px;
+  left: 22px;
+  color: white;
+  clip-path: inset(0px 200px 0px 154px);
+  transition: all 0.3s;
+}
+.textintro:after {
+  content: "Shatter";
+  position: absolute;
+  right: 24px;
+  top: 0px;
+  color: white;
+  clip-path: inset(0px 100px 0px 250px);
+  transition: all 0.5s;
+}
+.textintro span:after {
+  content: "Shatter";
+  position: absolute;
+  right: 24px;
+  top: 0px;
+  color: white;
+  clip-path: inset(0px 0px 0px 353px);
+  transition: all 0.5s;
+}
+.textintro:hover:after {
+  top: 10px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+}
+.textintro:hover:before {
+  top: -10px;
+  left: 0px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+}
+.textintro:hover span:before {
+  top: 4px;
+  cursor: pointer;
+}
+.textintro:hover span:after {
+  top: -8px;
+  left: 30px;
+  cursor: pointer;
+}
+.textsub {
+  color: black;
+}
+

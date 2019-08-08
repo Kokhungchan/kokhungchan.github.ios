@@ -1,0 +1,90 @@
+.textintro {
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size:6rem;
+    /* display:inline-block; */
+    position: relative;
+    color:transparent;
+    margin-bottom: 0;
+    
+    &:before {
+      content:"Shatter";
+      position: absolute;
+      top:0px;
+      left:22px;
+      color:white;
+      clip-path: inset(0px 298px 0px 0px);
+      transition:all 0.3s;
+    }
+    
+    span:before {
+      content:"Shatter";
+      position: absolute;
+      top:0px;
+      left:22px;
+      color:white;
+      clip-path: inset(0px 200px 0px 154px);
+      transition:all 0.3s;
+    }
+    
+      
+    &:after {
+      content:"Shatter";
+      position: absolute;
+      right:24px;
+      top:0px;
+      color:white;
+      clip-path: inset(0px 100px 0px 250px);
+      transition:all 0.5s;
+    }
+    
+    span:after {
+      content:"Shatter";
+      position: absolute;
+      right:24px;
+      top:0px;
+      color:white;
+      clip-path: inset(0px 0px 0px 353px);
+      transition:all 0.5s;
+    }
+    
+     &:hover:after {
+        top:10px;
+       cursor:pointer;
+       color:rgba(255,255,255,0.6);
+      }
+    
+    &:hover:before {
+        top:-10px;
+        left:0px;
+        cursor:pointer;
+        color:rgba(255,255,255,0.6);
+      }
+    
+    &:hover span:before {
+      top:4px;
+      cursor:pointer;
+    }
+    
+    &:hover span:after {
+      top:-8px;
+      left:30px;
+      cursor:pointer;
+    }
+    
+    /*span {
+      display:block;
+      transition:all 0.3s;
+      &:hover:before {
+        
+      }
+      &:hover:after {
+        top:14px;
+        cursor:pointer;
+      }
+    }*/
+  }
+  
+  .textsub {
+    color:black;
+  }

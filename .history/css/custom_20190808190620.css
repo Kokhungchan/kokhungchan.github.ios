@@ -216,7 +216,6 @@ section:last-child {
 
 .introtext {
   text-transform: uppercase;
-  text-align:center;
   letter-spacing: 0.5em;
   display: inline-block;
   border: 4px double rgba(0, 0, 0, 0.25);
@@ -230,7 +229,6 @@ section:last-child {
 }
 .introtext span {
   font: 700 4em "Oswald", sans-serif;
-  text-align:center;
   letter-spacing: 0;
   padding: 0.25em 0 0.325em;
   display: block;
