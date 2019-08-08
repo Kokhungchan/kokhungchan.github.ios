@@ -6,7 +6,7 @@ h2, h4, h5, h6 {
 
 h1, h3 {
   font-family: "Playfair Display SC", serif;
-  color: #f7f9fb;
+  color: #333333;
 }
 
 a, li {
@@ -17,7 +17,7 @@ a, li {
 
   p {
     font-family: "Lato", Arial, sans-serif;
-    color: #f7f9fb;
+    color: #333333;
   }
 
 a:hover {
@@ -109,7 +109,11 @@ a:hover {
 
 .intro {
   /*padding: 95px 0px 70px 0px;*/
-  background: #5085a5;
+  background: url(../img/bg_intro.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding: 30px 0px;
   margin-bottom: 30px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
