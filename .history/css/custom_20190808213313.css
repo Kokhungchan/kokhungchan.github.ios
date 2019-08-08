@@ -12,17 +12,12 @@ h1, h3 {
 .acontact{
   color: #fff;
 }
-
-.aboutres a{
-  padding-bottom: 5px;
-  font-size: 1.1875em;
-  font-weight: 700;
-  text-decoration: none;
-  border-bottom: 1px solid #b3b3b3; }
-
-  .aboutres a:hover {
-    border-bottom: 1px solid #333333; }
-
+a{
+  font-family: "Lato", Arial, sans-serif;
+  color: #4e4e4e;
+  font-size: 1em;
+  line-height: 1.75em;
+}
 a, li {
   font-family: "Lato", Arial, sans-serif;
   color: #4e4e4e;
