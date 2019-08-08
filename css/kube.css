@@ -3114,7 +3114,7 @@ ul.dropdown li.divider {
 
 .img-circle {
     border: 2px solid white;
-    border-radius: 50%;
+    border-radius: 99%;
 }
 .modal {
   position: relative;
